@@ -1,0 +1,14 @@
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const source=readFileSync(new URL('./worker/index.js',import.meta.url),'utf8');
+const {default:worker}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+const request=()=>new Request('https://example.test/api/assistant',{method:'POST',body:JSON.stringify({text:'鸡胸肉怎么做',context:{foods:[]}})});
+let called=false;
+globalThis.fetch=async(url,options)=>{called=true;assert.equal(url,'https://ark.cn-beijing.volces.com/api/v3/responses');assert.equal(JSON.parse(options.body).model,'test-model');return Response.json({output:[{type:'message',content:[{type:'output_text',text:'这是模拟豆包回复'}]}]})};
+assert.equal((await worker.fetch(request(),{})).status,503);
+assert.equal(called,false);
+const result=await worker.fetch(request(),{ARK_API_KEY:'test-only',ARK_MODEL:'test-model'});
+assert.equal((await result.json()).answer,'这是模拟豆包回复');
+globalThis.fetch=async()=>Response.json({error:{code:'AuthenticationError'}},{status:401});
+assert.equal((await worker.fetch(request(),{ARK_API_KEY:'test-only',ARK_MODEL:'test-model'})).status,502);
+console.log('PASS: missing configuration, Ark routing, reply parsing, authentication failure');

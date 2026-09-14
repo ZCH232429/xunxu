@@ -1,0 +1,32 @@
+{
+  "created": "20260913-235954",
+  "excluded_files": [
+    "outputs\\xunxu-ios\\.env.local",
+    "outputs\\xunxu-ios\\expo-err.log",
+    "outputs\\xunxu-ios\\expo-out.log",
+    "outputs\\fitness-workbench\\xunxu-mobile-v2.6.1.tar.gz",
+    "outputs\\fitness-workbench\\xunxu-mobile-v2.6.2.tar.gz",
+    "outputs\\fitness-workbench\\xunxu-mobile-v2.7.0.tar.gz"
+  ],
+  "redacted": [],
+  "excluded_directory_rules": [
+    ".cache",
+    ".claude",
+    ".codex",
+    ".expo",
+    ".git",
+    ".openai",
+    ".temp",
+    ".tmp",
+    "__pycache__",
+    "coverage",
+    "data",
+    "node_modules",
+    "site-dist",
+    "web-build",
+    "dist*",
+    "release*"
+  ],
+  "cloud_data_exported": false,
+  "git_history_included": false
+}

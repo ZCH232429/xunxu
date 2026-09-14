@@ -1,0 +1,12 @@
+@font-face{font-family:XunxuPingFang;src:url('./fonts/pingfang-sc-regular.woff2') format('woff2');font-weight:100 500;font-display:swap}
+@font-face{font-family:XunxuPingFang;src:url('./fonts/pingfang-sc-semibold.woff2') format('woff2');font-weight:600 900;font-display:swap}
+html,body,button,input,select,textarea,h1,h2,h3,h4,p,span,b,strong,small,a,label{font-family:XunxuPingFang,"PingFang SC",-apple-system,sans-serif!important}
+html,body{background:#111;overscroll-behavior:none;-webkit-text-size-adjust:100%}
+input,select,textarea{font-size:16px!important}
+button{-webkit-touch-callout:none;user-select:none}
+.sidebar nav{bottom:12px!important}
+.fridge-entry button{font-size:13px!important}
+
+.native-tab-shell .sidebar{display:none!important}
+.native-tab-shell main{margin-left:0!important;padding-bottom:24px!important}
+.native-tab-shell body{padding-bottom:0!important}

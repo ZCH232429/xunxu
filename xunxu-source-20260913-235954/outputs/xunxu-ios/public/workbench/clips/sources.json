@@ -1,0 +1,77 @@
+{
+  "bench": {
+    "video": "push",
+    "start": 485,
+    "duration": 30
+  },
+  "incline": {
+    "video": "push",
+    "start": 2085,
+    "duration": 30
+  },
+  "dips": {
+    "video": "push",
+    "start": 3135,
+    "duration": 30
+  },
+  "triceps": {
+    "video": "push",
+    "start": 3785,
+    "duration": 30
+  },
+  "yraise": {
+    "video": "push",
+    "start": 4365,
+    "duration": 30
+  },
+  "onepull": {
+    "video": "pull",
+    "start": 685,
+    "duration": 30
+  },
+  "row": {
+    "video": "pull",
+    "start": 2285,
+    "duration": 30
+  },
+  "neutral": {
+    "video": "pull",
+    "start": 3335,
+    "duration": 30
+  },
+  "wide": {
+    "video": "pull",
+    "start": 3955,
+    "duration": 30
+  },
+  "curl": {
+    "video": "pull",
+    "start": 4495,
+    "duration": 30
+  },
+  "singleRdl": {
+    "video": "legs",
+    "start": 885,
+    "duration": 30
+  },
+  "bulgarian": {
+    "video": "legs",
+    "start": 1439,
+    "duration": 30
+  },
+  "goblet": {
+    "video": "legs",
+    "start": 2315,
+    "duration": 30
+  },
+  "rdl": {
+    "video": "legs",
+    "start": 2635,
+    "duration": 30
+  },
+  "extension": {
+    "video": "legs",
+    "start": 3205,
+    "duration": 30
+  }
+}

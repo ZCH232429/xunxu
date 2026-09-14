@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import {bmi,calculateBasics,hasBasics,videoTargets} from '../lib/nutrition-plan.js';
+import {empty,targets,plan} from '../public/workbench/engine.js';
+import {validState} from '../lib/validation.js';
+const base={weight:85,height:175,age:30,sex:'male',activity:1.4,frequency:3,sessionMinutes:60};
+assert.ok(Math.abs(bmi(80,175)-26.1224489796)<1e-9);
+assert.equal(bmi(80,0),null);
+const near=(a,b)=>assert.ok(Math.abs(a-b)<1e-8,`${a} should equal ${b}`);
+const r=calculateBasics(base);near(r.macros.c,187);near(r.macros.p,119);near(r.macros.f,68);near(r.kcal,1836);near(r.rmr,1798.75);near(r.tdee,2518.25);
+const rows=[['male',2,2.2,1.4,.8],['male',4,2.5,1.6,.9],['male',6,3,1.7,1],['male',8,3.5,1.8,1],['female',2,2,1.4,1],['female',4,2.2,1.6,1.1],['female',6,2.5,1.7,1.1],['female',8,3,1.8,1.2]];
+for(const [sex,hours,c,p,f] of rows){const x=calculateBasics({...base,sex,frequency:4,sessionMinutes:hours*15});assert.deepEqual(x.coefficients,{c,p,f});assert.equal(x.manualBand,false)}
+for(const hours of [0,1,3.5,5.5,7.5,10])assert.equal(calculateBasics({...base,frequency:hours===0?0:4,sessionMinutes:hours*15}).needsBand,true);
+const manual=calculateBasics({...base,frequency:0,sessionMinutes:0,videoBand:'2-3'});assert.equal(manual.manualBand,true);assert.equal(manual.band,'2-3');
+assert.equal(calculateBasics({...base,videoBand:'8-9'}).band,'2-3');
+for(const patch of [{weight:0},{height:0},{height:Infinity},{age:17},{age:30.5},{sex:''},{frequency:2.5},{frequency:NaN},{sessionMinutes:0},{activity:0}])assert.throws(()=>calculateBasics({...base,...patch}));
+const state=empty();state.profile={...state.profile,...base,onboardingVersion:1,nutritionMethod:'video',videoBand:'2-3'};
+validState(state);assert.equal(hasBasics(state.profile),true);assert.equal(hasBasics({...state.profile,onboardingVersion:0}),false);
+assert.equal(targets(state).kcal,1836);state.profile.deficit=900;state.body=[{date:'2026-09-13',weight:70}];assert.equal(targets(state).kcal,1836,'no double deficit or automatic reduction after daily weighing');
+state.profile.frequency=0;state.profile.sessionMinutes=0;validState(state);assert.ok(plan(state,'2026-09-14',7).every(x=>x.type==='rest'));
+assert.equal(videoTargets({...base,activity:1.2,frequency:4,sessionMinutes:120}).error.includes('未形成'),true);
+console.log('PASS: BMI/RMR/TDEE, all eight video coefficient rows, missing ranges, manual choice, invalid input, stable targets, zero-day schedule.');

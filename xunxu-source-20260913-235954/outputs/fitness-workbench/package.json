@@ -1,0 +1,55 @@
+{
+  "name": "fit-workbench",
+  "version": "3.2.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node build.mjs",
+    "desktop": "electron .",
+    "desktop:package": "npm run build && electron-builder --win portable"
+  },
+  "dependencies": {
+    "@zxing/browser": "^0.1.5",
+    "express": "^5.1.0",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "electron": "^44.3.0",
+    "electron-builder": "^26.15.3"
+  },
+  "main": "desktop-main.mjs",
+  "build": {
+    "appId": "com.xunxu.fitnessworkbench",
+    "productName": "循序",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "public/**/*",
+      "desktop-main.mjs",
+      "server.mjs",
+      "validation.mjs",
+      "video-sources.json",
+      "package.json",
+      "node_modules/**/*",
+      "food-resolver.mjs"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "public/icon-512.png"
+    },
+    "portable": {
+      "artifactName": "循序-健身工作台-${version}-Windows.exe"
+    }
+  }
+}

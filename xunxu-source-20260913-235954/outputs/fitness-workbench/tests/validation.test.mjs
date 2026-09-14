@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {empty,demo} from '../public/engine.js';import {healthRows,validState,validDate} from '../validation.mjs';
+test('valid initial and demo data accepted',()=>{assert.ok(validState(empty()));assert.ok(validState(demo()))});
+test('invalid dates and health values rejected',()=>{assert.equal(validDate('2026-02-30'),false);assert.throws(()=>healthRows([{date:'2026-02-30',steps:1}]));assert.throws(()=>healthRows([{date:'2026-09-06',sleep:30}]));assert.throws(()=>healthRows([{date:'2026-09-06'}]));assert.deepEqual(healthRows([{date:'2026-09-06',steps:10}]),[{date:'2026-09-06',steps:10,source:'用户健康记录'}])});
+test('partial health upload does not reset previous completeness',()=>assert.equal(healthRows([{date:'2026-09-06',sleep:7}])[0].energyComplete,undefined));
+test('duplicate dates cannot inflate plateau coverage',()=>{let s=empty();s.body=[{date:'2026-09-06',weight:80},{date:'2026-09-06',weight:80}];assert.throws(()=>validState(s))});
+test('external images in backup cannot cause background requests',()=>{let s=empty();s.checks=[{date:'2026-09-06',photo:'https://example.com/track'}];assert.throws(()=>validState(s))});
+test('bad portions and training values cannot be imported',()=>{let s=demo();s.foods[0].basis=0;assert.throws(()=>validState(s));s=empty();s.sessions=[{date:'2026-09-06',type:'push',sets:[{weight:-1,reps:5,rpe:8,mode:'external'}]}];assert.throws(()=>validState(s))});

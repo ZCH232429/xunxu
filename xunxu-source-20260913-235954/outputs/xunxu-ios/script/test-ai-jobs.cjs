@@ -1,0 +1,23 @@
+const assert=require('node:assert/strict');
+const {createJobs}=require('../server/ai-jobs.cjs');
+const tick=()=>new Promise(resolve=>setImmediate(resolve));
+(async()=>{
+ let time=100, calls=0, complete;
+ const jobs=createJobs({now:()=>time,ttl:100,concurrency:1,run:()=>{calls++;return new Promise(resolve=>complete=resolve)}});
+ const id=jobs.start('/food','{"text":"beef 300g"}');
+ assert.equal(jobs.read(id).status,202);
+ assert.equal(jobs.start('/food','{"text":"beef 300g"}'),id,'retry must reuse in-flight work');
+ assert.throws(()=>jobs.start('/food','different'),/其他请求/);
+ await tick();assert.equal(calls,1);
+ complete({status:200,data:{stockGrams:300}});await tick();
+ assert.deepEqual(jobs.read(id),{status:200,data:{stockGrams:300}});
+ assert.equal(jobs.start('/food','{"text":"beef 300g"}'),id,'successful exact input can be reused');
+ time+=101;assert.equal(jobs.read(id).status,404);
+ const retry=createJobs({run:async()=>({status:422,data:{error:'No label'}})});
+ const failed=retry.start('/food','x');await tick();assert.equal(retry.read(failed).status,422);
+ assert.notEqual(retry.start('/food','x'),failed,'failures must not be cached');
+ const rejected=createJobs({run:async()=>{throw Error('secret upstream text')}});
+ const bad=rejected.start('/food','x');await tick();assert.equal(rejected.read(bad).status,503);
+ assert.ok(!JSON.stringify(rejected.read(bad)).includes('secret'));
+ console.log('PASS: asynchronous acceptance, deduplication, limits, result reuse, expiry, error retry and sanitization.');
+})();

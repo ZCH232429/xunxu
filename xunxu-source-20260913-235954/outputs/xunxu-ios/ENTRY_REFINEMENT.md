@@ -1,0 +1,14 @@
+# 2026-09-13 录入与界面更新
+- 界面基于 today-restored，仅更新指定模块。
+- 注册/登录表单下快捷登录卡片：Google、Apple、已有账户直接登录。已有账户使用 shouldCreateUser=false。
+- 实查 Supabase auth/v1/settings：email=true，google/apple/phone=false。第三方登录仍需服务商配置，不能视作已验证。
+- Google：完成 Supabase Google provider 和回调 allowlist 后设 EXPO_PUBLIC_GOOGLE_AUTH_ENABLED=true。浏览器 OAuth 回调通过 expo-linking + WebBrowser；自定义 scheme 的可靠测试请使用开发构建。
+- Apple：服务配置及签名完成后设 EXPO_PUBLIC_APPLE_AUTH_ENABLED=true；当前沿用原生 nonce + ID token 登录。
+- 食材与补剂统一 OmniInputDock。SDK 扫码直接打开相机。结果原地确认，分类可修改。
+- 库存卡片支持原地名称/整数克重编辑；完整营养在详情中编辑。
+- supplementLogs 兼容旧记录：新增 recordKind=library/intake，supplementId/eventId 关联；存入库不计为服用。
+- 通知使用设备本地每日时刻计划，用户主动打开开关时请求权限。已服用动作唤起 App；本地持久队列失败后在前台重试，云端记录按事件和单日剂量去重。
+- 通知实际交付/锁屏按钮仍需 iPhone 测试，未声称已实测。退出账号取消该账号本机提醒。
+- 12 个匹配 GIF 在训练详情显示，无运行时 3D 模型。3 个重建草稿在 ../../work/action-review，仅供审核，未接入。
+- 媒体索引来源 https://github.com/JahelCuadrado/ExerciseGymGifsDB ，固定 v1.1.0。仓库声明不拥有 GIF 版权、不向第三方授予媒体权利；上架授权应单独确认。
+- 验证：TypeScript；营养、冰箱既有测试；模拟云端 UI 测试验证库存修改、分类持久化、底部录入、补剂库和服用记录分离；登录 UI 和 GIF 加载；iOS export。

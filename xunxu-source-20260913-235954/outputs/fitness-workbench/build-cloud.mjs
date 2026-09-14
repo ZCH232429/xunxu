@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url));
+const output=path.join(root,'site-dist','dist');
+fs.mkdirSync(path.join(output,'server'),{recursive:true});
+fs.mkdirSync(path.join(output,'.openai'),{recursive:true});
+fs.cpSync(path.join(root,'public'),path.join(output,'client'),{recursive:true});
+fs.copyFileSync(path.join(root,'cloud-worker.mjs'),path.join(output,'server','index.js'));
+fs.copyFileSync(path.join(root,'food-resolver.mjs'),path.join(output,'server','food-resolver.mjs'));
+fs.copyFileSync(path.join(root,'.openai','hosting.json'),path.join(output,'.openai','hosting.json'));
+console.log('Built private site with same-origin assistant API.');

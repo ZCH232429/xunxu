@@ -1,0 +1,9 @@
+export type Basics={weight:number;height:number;age:number;sex:'male'|'female';activity:number;frequency:number;sessionMinutes:number;videoBand?:string;onboardingVersion?:number};
+export type Calculation={bmi:number;rmr:number;tdee:number;hours:number;band:string|null;manualBand:boolean;needsBand:boolean;coefficients:{p:number;c:number;f:number}|null;macros:{p:number;c:number;f:number}|null;kcal:number|null;deficit:number|null};
+export const videoBands:{id:string;min:number;max:number;cMale:number;cFemale:number;p:number;fMale:number;fFemale:number}[];
+export const activityLevels:{value:number;label:string;detail:string}[];
+export function bmi(weight:number,height:number):number|null;
+export function validateBasics(p:Basics):void;
+export function calculateBasics(p:Basics):Calculation;
+export function videoTargets(p:Basics):any;
+export function hasBasics(p:any):boolean;

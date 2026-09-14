@@ -1,0 +1,1392 @@
+[
+  {
+    "path": "outputs/fitness-workbench/.env.example",
+    "bytes": 141,
+    "sha256": "1bef3ba2c4dde8dcf46e65df7631417e05dd583ff11fadffdf85b48c0cabb9ca"
+  },
+  {
+    "path": "outputs/fitness-workbench/.gitignore",
+    "bytes": 212,
+    "sha256": "6048a2167de9d92c35d546a382897bf2632a49ea9b86bd49dc0c13a549fc8b53"
+  },
+  {
+    "path": "outputs/fitness-workbench/build-cloud.mjs",
+    "bytes": 763,
+    "sha256": "14350c2c744f5d80434b491a2e5473470e1c8ca7692218965b9b9042a55a8e29"
+  },
+  {
+    "path": "outputs/fitness-workbench/build.mjs",
+    "bytes": 409,
+    "sha256": "8ac930c7e9a808681edd0ba59a41af98f486ce4b54d71467ecf2947190d68553"
+  },
+  {
+    "path": "outputs/fitness-workbench/cloud-worker.mjs",
+    "bytes": 9818,
+    "sha256": "ca28f098a5f3a015d9396a268feed2cc6e514f415451153b2bf2ef4e5228382f"
+  },
+  {
+    "path": "outputs/fitness-workbench/desktop-main.mjs",
+    "bytes": 2648,
+    "sha256": "3c806762cd457bc58221ad2c869392eba5213a6e17671f9e7c2b524f164a13eb"
+  },
+  {
+    "path": "outputs/fitness-workbench/food-resolver.mjs",
+    "bytes": 9102,
+    "sha256": "4d10b3dab9a2f50f4e508c00bb7450fdeb22de4561ef68303a335d90d0f7d124"
+  },
+  {
+    "path": "outputs/fitness-workbench/package-lock.json",
+    "bytes": 154523,
+    "sha256": "90a092316f06940a4253cc59af9f8ad4ddcdd254f6d9b12c02cb265bcfa612f7"
+  },
+  {
+    "path": "outputs/fitness-workbench/package.json",
+    "bytes": 1247,
+    "sha256": "dda9b01ccb824d0e8288f5ffa568dcd2f85fc32f1a43b4e643d75d9a99fe502c"
+  },
+  {
+    "path": "outputs/fitness-workbench/product-lookup.mjs",
+    "bytes": 3323,
+    "sha256": "7f2b44d6c26023d6024739c26463054fba34612a96a4d0ebcfb310eeb196bd41"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/analysis.html",
+    "bytes": 917724,
+    "sha256": "22d0f8fca6255fb99cdd78ea0ccc67a12c8af8a624456bf516e403b9aabb7066"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/analytics.js",
+    "bytes": 3342,
+    "sha256": "86cf40101f5451c01b463ee9777a58d98aabd4b1b18ad8d54fe881c4c2a1c320"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/app.js",
+    "bytes": 77542,
+    "sha256": "2ed3433cac35a61e673b1843d32424ab301f7071892bc324c433a0e8cac36fe1"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/apple-touch-icon.png",
+    "bytes": 6357,
+    "sha256": "c8ce7b7563d003ed7a074059b3f36b923317001f5020caff20a5556225a276fb"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/bento.css",
+    "bytes": 18191,
+    "sha256": "92b701cb0e7d6b3eac4b35f8e56bf8a34626a373edfadaaa262d74caae1b5526"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/bench.mp4",
+    "bytes": 1487653,
+    "sha256": "6388d64ac3ae06a45f3114c2922d0ffdb66d8ee0b6bacc53ce7872a14f7e03e5"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/bulgarian.mp4",
+    "bytes": 1060276,
+    "sha256": "c1216ae1fae55de6730ba7f8668baacb7d3118d0473a378b7f26a6544ad6d39f"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/curl.mp4",
+    "bytes": 1237902,
+    "sha256": "821448e272b400a5e541d6be90c21be0eb1e8bd2b34c4b24538c5ab87439b35c"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/dips.mp4",
+    "bytes": 1087342,
+    "sha256": "b62b6aa58d49a8a57ccb37e9e49168e6f3c4a5ab243fda0976fc47a9eba8d1f4"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/extension.mp4",
+    "bytes": 998769,
+    "sha256": "6a399c2db855f81aadf7892be21d050d981cd7c3777347c710d732e074bc40e4"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/goblet.mp4",
+    "bytes": 963297,
+    "sha256": "ef05d8dae93cb0c2af8452249a56df83c4095ba9aab214a8f3aa5145b28a360f"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/incline.mp4",
+    "bytes": 1089877,
+    "sha256": "a3addef4ee48825a938a5dedadcfbe3f0d7b62e23bb0723ba93e557ca4a008d2"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/neutral.mp4",
+    "bytes": 1526244,
+    "sha256": "d71142e83a25044efdf91a4d0b61b7821df39d464293743381e4d7ebd1fb30c8"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/onepull.mp4",
+    "bytes": 1466815,
+    "sha256": "e199b7c098aa6ae9b8172322845b7d26f0cce3c9e3fbd7bb812fff27337e0d5d"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/rdl.mp4",
+    "bytes": 902948,
+    "sha256": "b257178c7478443bb779eec30639e039505ce11f804d5461445d81f87e68ba65"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/row.mp4",
+    "bytes": 1407004,
+    "sha256": "294c05033819337bf2a2ec2274bfba6cb501bddfbbd7e53a95354ee2daffa93c"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/singleRdl.mp4",
+    "bytes": 1163790,
+    "sha256": "ae1b2283c829d3d255c6da9982b699c705e1501911a72440b62c782fe3d02858"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/sources.json",
+    "bytes": 1245,
+    "sha256": "bb5b255b29c4a57b01e19309fb78013339e0378f63e4b136eb0d567e27b25c3b"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/triceps.mp4",
+    "bytes": 1111101,
+    "sha256": "cb6d6f9b322b4edf3b6fe391acdb66a204caaefe63af903e5dc6c5a4191d008f"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/wide.mp4",
+    "bytes": 950680,
+    "sha256": "b590df455dab8a0cd7a22dda61519df991739659cb48ab577a4baa4063946c30"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/clips/yraise.mp4",
+    "bytes": 1139696,
+    "sha256": "1f91ac5366b96b324d30f4cf0e2552826c19c229f2b653009ca3f84d30193d7b"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/engine.js",
+    "bytes": 9740,
+    "sha256": "655bb2bc0d0f7a00859bedcd4d3b8e566cf1cea5651847036115eced787f4157"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/guide-data.js",
+    "bytes": 6729,
+    "sha256": "996787e98047f2fa22159c155a43e1a9453e37a7e149afa7702bff88dcb911c1"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/human-viewer.js",
+    "bytes": 13350,
+    "sha256": "e84420654f828e508341c06ffee6e06eb801a02d2018aac60ee045ace21b601f"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/icon-512.png",
+    "bytes": 18573,
+    "sha256": "76856ec0512bd4b90dd338f01797db5b479cee98447506b4e98bd3a3a0bfdd3d"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/icon.svg",
+    "bytes": 505,
+    "sha256": "2974e560a16359df2d782a338a1a2edd1081d042d9e0bac12597cba5482169fc"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/index.html",
+    "bytes": 897,
+    "sha256": "6eab33ca226ea8b52a2a560fcc10e36db61c34a2ca68ad31d59e7ea15012d6da"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/manifest.webmanifest",
+    "bytes": 359,
+    "sha256": "79387aa152d8b12c5c8d96860757065aaaa9150eb90a687b5dd6d52aaca284a6"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/models/LICENSE.md",
+    "bytes": 830,
+    "sha256": "3e76a122c36ddc2ae97034d7fb937354e0830b1466184186118ac78407b39ada"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/models/training-human.glb",
+    "bytes": 1094980,
+    "sha256": "3b7a91afe43fd36b77578e4434e55a6c18b9fa8088384fac87ac183d32541d21"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/portable-store.js",
+    "bytes": 1484,
+    "sha256": "6e7d62d8ccc55363cce7dcd615b83919cdd052cda44b4b347ef03095cbea13bb"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/style.css",
+    "bytes": 19780,
+    "sha256": "b76082ffc65b18cf4b7a94c269aae6b80017b25515523f09fac74d3938f718d5"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/sw.js",
+    "bytes": 1531,
+    "sha256": "d7f0acb2ec6b625e444ff732126e97c3ffd322c681914f90aba39c981238ee37"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/bench.jpg",
+    "bytes": 27805,
+    "sha256": "2f1d12e711e85bef2f7e1a7faf03eb4824241d6aa36e452d9ef35c8b550049b1"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/bulgarian.jpg",
+    "bytes": 24878,
+    "sha256": "dd12e56983f770c6c27615e3eb655515fb4b8404c936dd2389a9d55d8b064cbb"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/curl.jpg",
+    "bytes": 23943,
+    "sha256": "b9767cb7e5eba02163f7e3e93137bd607345a3738acef85acb12e779ea188183"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/dips.jpg",
+    "bytes": 19512,
+    "sha256": "e0dc4edd236511b3313df2f687a8d4762ea3dca9c3d706e07b221ee3e88f6c69"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/extension.jpg",
+    "bytes": 20071,
+    "sha256": "1fbb495bc1dd910fdec0a59b9d1e1b3012b12153daee3d73ee0678a30887f1d1"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/goblet.jpg",
+    "bytes": 21105,
+    "sha256": "14769160aa9daa96d7eb63aebe67589f323843ce0ceeed229ae1d018c11c275c"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/incline.jpg",
+    "bytes": 25315,
+    "sha256": "a39af6bf1f5ae04080ca323b4e8462b29bbbefc37289acbc54e927c30d4a6066"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/neutral.jpg",
+    "bytes": 25222,
+    "sha256": "52142503a4b839ec50b75b9ec391896be01cb97c11f1369c99bcc77488dcd107"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/onepull.jpg",
+    "bytes": 22254,
+    "sha256": "ef02dd993d6152301fe97d523390a51d13d2e7428d8c6bd117d4c4950b729d2a"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/rdl.jpg",
+    "bytes": 24403,
+    "sha256": "97e4a6919a993df76e0333585cfcabef304457a2ed41dd247cdeaa1f6efec279"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/row.jpg",
+    "bytes": 19791,
+    "sha256": "e735b6193219245d09930b856120d98ba0881dfb7c11181a6f1b79013bb8b42c"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/singleRdl.jpg",
+    "bytes": 22802,
+    "sha256": "ef8f70e9cb8a47578aba14a02ca9a7a03afbd921bbdb79c29873393079fb1477"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/triceps.jpg",
+    "bytes": 23309,
+    "sha256": "6526792e736784c4c8c3c595f53ee144b4cd1920f897f2f58c25501cd36dd94e"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/wide.jpg",
+    "bytes": 19443,
+    "sha256": "c2ed71527e9ed9875b38a5068574ac10984bed6b2a3513471245658bfcef2f73"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/thumbs/yraise.jpg",
+    "bytes": 22953,
+    "sha256": "9e6522d3db7aebc499943127dde8f604480d4b4e122d491d8d41064fe862b3ce"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/validation.js",
+    "bytes": 3470,
+    "sha256": "dac001362745d7e21b775cda10297c8c849ddc59025430c44e2c3b6047e0f7b6"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/vendor/three/BufferGeometryUtils.js",
+    "bytes": 37621,
+    "sha256": "5c552223a9309883743b80538d6e9cdb45e3227f30d3ec56fb2c39b46e78d595"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/vendor/three/GLTFLoader.js",
+    "bytes": 114945,
+    "sha256": "ad534a8e1545d8a4a55e4c400e22e69411a68dbcac1a8013026e56ee8ef4475d"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/vendor/three/LICENSE",
+    "bytes": 1081,
+    "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/vendor/three/OrbitControls.js",
+    "bytes": 40504,
+    "sha256": "faabb4e8dfd9235ee4a9fd7c9a3d75f90f1689dbd4944bd6fd32117dacec5f93"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/vendor/three/SkeletonUtils.js",
+    "bytes": 11535,
+    "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/vendor/three/three.core.js",
+    "bytes": 1443056,
+    "sha256": "3718df126d69c125362a03340913204470d8c50238605150e57f808840fb7759"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/vendor/three/three.module.js",
+    "bytes": 650153,
+    "sha256": "bbf5ed13fe4373f5bd38b14ea8e62e9f157327da5638edc6d3863e08b167c9c7"
+  },
+  {
+    "path": "outputs/fitness-workbench/public/vendor/zxing.js",
+    "bytes": 395062,
+    "sha256": "b5ad3df920738ca7adcb74508d7e6b6a5b9024993fb9a0c702da1ad8964eca07"
+  },
+  {
+    "path": "outputs/fitness-workbench/README.md",
+    "bytes": 6473,
+    "sha256": "6a3d9d85ba1bfd7ad0831cc55a303dabab9c136c11f2d6eefea03232637b9bea"
+  },
+  {
+    "path": "outputs/fitness-workbench/server.mjs",
+    "bytes": 6675,
+    "sha256": "221e3152ff1bd8d2e6c00e1878e38d55c007b16aa78a4360ccf81454bd05e6e6"
+  },
+  {
+    "path": "outputs/fitness-workbench/start.ps1",
+    "bytes": 206,
+    "sha256": "8466536773f9d8d2bd38757d9bd3f3e53e1501ae39aff367d6137519a8dd9724"
+  },
+  {
+    "path": "outputs/fitness-workbench/supplement-resolver.mjs",
+    "bytes": 2180,
+    "sha256": "f3eee7704c6e87397ea951edb0f869290214f7bdee3a23a0df3b7c0434beb242"
+  },
+  {
+    "path": "outputs/fitness-workbench/tests/cloud-worker.test.mjs",
+    "bytes": 3938,
+    "sha256": "aa2586f9a6aa03be625b5ca3a0d99acff5e71b55ca4b022996f311a05974675a"
+  },
+  {
+    "path": "outputs/fitness-workbench/tests/engine.test.mjs",
+    "bytes": 2745,
+    "sha256": "fe7d8ee88dc2b22de30fe788e1fb30a8e0dd91677e18fb2563b0f6c1bac38b59"
+  },
+  {
+    "path": "outputs/fitness-workbench/tests/food-resolver.test.mjs",
+    "bytes": 2926,
+    "sha256": "1b52c80113622ecf4a2258b607060103b998c3b6f0b8b755c09c10cd4355d1ef"
+  },
+  {
+    "path": "outputs/fitness-workbench/tests/full-ui.mjs",
+    "bytes": 5002,
+    "sha256": "4be471d0d45ea58b0f6aeab7b02853413b201b8dc1b9d45cefc05bb5ecdb2014"
+  },
+  {
+    "path": "outputs/fitness-workbench/tests/human-smoke.mjs",
+    "bytes": 960,
+    "sha256": "a7fec690f4b4938368dba97382f44544cfbe7abdfb0340ecbefe7510427618e0"
+  },
+  {
+    "path": "outputs/fitness-workbench/tests/icons.mjs",
+    "bytes": 537,
+    "sha256": "158c014cc3315d637731ac86d0117c7aa8c383093ac5ad302e27a90f70b74123"
+  },
+  {
+    "path": "outputs/fitness-workbench/tests/offline.mjs",
+    "bytes": 2096,
+    "sha256": "c188a6602351ea79a1aa128972d6b006c5ba46dd8d659e631312bd5ea4305bf8"
+  },
+  {
+    "path": "outputs/fitness-workbench/tests/poses.mjs",
+    "bytes": 957,
+    "sha256": "0d95b615663fe5603e0e9f2d71e943b27877d8488d3f884f437fe74639978e25"
+  },
+  {
+    "path": "outputs/fitness-workbench/tests/validation.test.mjs",
+    "bytes": 1481,
+    "sha256": "b37ce0e0494789a0bb3af24a5920aaaf37a5bccfaef730326cf6f3e4b02f87fe"
+  },
+  {
+    "path": "outputs/fitness-workbench/validation.mjs",
+    "bytes": 73,
+    "sha256": "12317075acc9523f5f03e4462c92b8309b4a4a7e252ae8cbd04f3ad6bb9fc54a"
+  },
+  {
+    "path": "outputs/fitness-workbench/video-sources.json",
+    "bytes": 2814,
+    "sha256": "8e3ac59135582e23098a7f081f2b36176ff885d4728af968c8ddfb474289db92"
+  },
+  {
+    "path": "outputs/xunxu-ai-gateway/worker/index.js",
+    "bytes": 2938,
+    "sha256": "8281ba3f8ad726ca8054fd79b0c4039d3e55d6c00b4bfd12a7dc8b14d6c48fa5"
+  },
+  {
+    "path": "outputs/xunxu-ai-gateway/worker.test.mjs",
+    "bytes": 1280,
+    "sha256": "6409f79f22aa36343d7131b1167bee7e95e71cbb7c10ad363cf6d64a8f883a68"
+  },
+  {
+    "path": "outputs/xunxu-ios/.env.example",
+    "bytes": 383,
+    "sha256": "96b2e0b701fd117ab53c80a3d0c186fc3b49d6b6a61d9c9021cb464f47d83382"
+  },
+  {
+    "path": "outputs/xunxu-ios/.gitignore",
+    "bytes": 538,
+    "sha256": "3e6200c435e03bdbf2b385f83610b46b8287ce31b38c273fea1726544a46e6a4"
+  },
+  {
+    "path": "outputs/xunxu-ios/AGENTS.md",
+    "bytes": 118,
+    "sha256": "5986df214fcb822f856b9a8aac7c06503e02158aad55c8d7edf2966d7ee2dffd"
+  },
+  {
+    "path": "outputs/xunxu-ios/AI_CAPABILITY_AUDIT.md",
+    "bytes": 4896,
+    "sha256": "c45e38e53fc0ae5e2690b8264c931545e569ffdf0662dc1592baa9d4a6118d56"
+  },
+  {
+    "path": "outputs/xunxu-ios/app/_layout.tsx",
+    "bytes": 634,
+    "sha256": "adb1cbd4edd0c5a00aa2206a9090b640b82baf4d55f620912485119ee72fb831"
+  },
+  {
+    "path": "outputs/xunxu-ios/app/index.tsx",
+    "bytes": 59,
+    "sha256": "d3a30d986ab8a4e565abdbfaa39621a8547da75b4d0d3ac928b580c87f650602"
+  },
+  {
+    "path": "outputs/xunxu-ios/app/nutrition.tsx",
+    "bytes": 156,
+    "sha256": "1eef86c22facc933cdb780707a5d6a7d0c6353f6ad07d9ee945328cba4e48d21"
+  },
+  {
+    "path": "outputs/xunxu-ios/app/settings.tsx",
+    "bytes": 724,
+    "sha256": "8357e1bc0c8c2e0f6307a651d2acd6fccca3be8bb773256b487af6ba4da79faa"
+  },
+  {
+    "path": "outputs/xunxu-ios/app.json",
+    "bytes": 2351,
+    "sha256": "2088a5e3a39bd79003097e3040fc2fb6bdd5c2e0fb6106602b7d61a82d74c5ec"
+  },
+  {
+    "path": "outputs/xunxu-ios/assets/android-icon-background.png",
+    "bytes": 17549,
+    "sha256": "fb139c2dee362ebf2070e23b96da6fc0d43f8492de38b8af1fd7223e19b5861d"
+  },
+  {
+    "path": "outputs/xunxu-ios/assets/android-icon-foreground.png",
+    "bytes": 78796,
+    "sha256": "9e3d0315a33c6799de601dd34cd8bf8cc3a8d16f3bf75592baec2ceb7240b391"
+  },
+  {
+    "path": "outputs/xunxu-ios/assets/android-icon-monochrome.png",
+    "bytes": 4140,
+    "sha256": "6371fc2c12e33ad2215a86c281db3d682a81bebe7c957a842c13b8bf00cceb83"
+  },
+  {
+    "path": "outputs/xunxu-ios/assets/favicon.png",
+    "bytes": 1129,
+    "sha256": "a4e030697a7571b3e95d31860e4da55d2f98e5e861e2b55e414f45a8556828ba"
+  },
+  {
+    "path": "outputs/xunxu-ios/assets/icon.png",
+    "bytes": 393493,
+    "sha256": "119462bb78eb240a65c869fc067ee599639b3cb5a41953f25c07b17d2a8c7e0f"
+  },
+  {
+    "path": "outputs/xunxu-ios/assets/splash-icon.png",
+    "bytes": 17547,
+    "sha256": "5f4c0a732b6325bf4071d9124d2ae67e037cb24fcc9c482ef82bea742109a3b8"
+  },
+  {
+    "path": "outputs/xunxu-ios/CLAUDE.md",
+    "bytes": 11,
+    "sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/auth-gate.tsx",
+    "bytes": 10748,
+    "sha256": "bb6304f269b624acfdbea9615c27936547211bde8a1f2591813e35ff04e52032"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/basics-gate.tsx",
+    "bytes": 13287,
+    "sha256": "720672a63722060602fd2511897309e048b6689fc8d08d35f12fd26c721938cf"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/AIPlanDashboard.tsx",
+    "bytes": 7565,
+    "sha256": "a8390d1b16a956e8d1c1b043869a7fa200c641afbd23b3c22da3fff0e0941cff"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/ConfirmSupplementScan.tsx",
+    "bytes": 2935,
+    "sha256": "38e3cdaa0f88d228f1182ae1e1850c1aee5fbb6ae3d0ed7d0c405cf477b84a32"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/DietPlanning.tsx",
+    "bytes": 12368,
+    "sha256": "3706499ac4a194ae8d52322a1466d3ba6639db08fba6b2b6b4124db45e5a4f27"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/EditableFoodCard.tsx",
+    "bytes": 2341,
+    "sha256": "b64a61a9d80eb54077b1c3e8faba13ef4971a5df630038e7f24803b4b44fcc7a"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/FridgeContext.tsx",
+    "bytes": 4988,
+    "sha256": "5825e1f595c2753962fdbe2e8998922b3d82321ad2ff08ac0931d88df7bbb939"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/LookupSources.tsx",
+    "bytes": 859,
+    "sha256": "3b837cdcb003fc267018c357f9577ffb7ef6b91bbbbf1586c0e9c7af7f24222f"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/NutritionPanel.tsx",
+    "bytes": 4632,
+    "sha256": "9a57e26ae174a3c3a6a426bf075a4bdcadafcb6ad8b90c2a1c5ab3a5fec6dba5"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/OmniInputBar.tsx",
+    "bytes": 4862,
+    "sha256": "5a44f4151eecbc8737bb592ec5ceb4b219107e29e2560fd7b104d823c79cfd0a"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/OmniInputDock.tsx",
+    "bytes": 9638,
+    "sha256": "1e13203ce0ec1ca15445334229f742994e3b425313dee40387050da2921afd9e"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/SDKBarcodeScanner.tsx",
+    "bytes": 3826,
+    "sha256": "8e3b7f2bf980b3e5b36b9c3ff21469d52ac7295c01c10f113a0126a3f7e1d1cd"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/SmartScannerView.tsx",
+    "bytes": 7702,
+    "sha256": "02267aeb800ce8943903ab89338a6817894db777b3355b75dc08c340aa161f43"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/SupplementRecords.tsx",
+    "bytes": 5387,
+    "sha256": "e7fe3b27ad696464b3a68b1b839975e5002e3fd30674b7b9c07c48cf2b346066"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/fridge/ui.tsx",
+    "bytes": 16384,
+    "sha256": "c6d82bd384361e3498e76a68a54a16016ba0f5d174242f361f4137989a2682ff"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/health/dashboard-ui.tsx",
+    "bytes": 6893,
+    "sha256": "fb813d37aa92c10671c1fd9c11875910f2ba6855058940c025c18b1f8c2a10b7"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/today/TodayPanel.tsx",
+    "bytes": 18216,
+    "sha256": "3fcfad81718f854d2652f3a1da4d5d322080d1372b2ee89218b7605eb3b14420"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/workbench-native.tsx",
+    "bytes": 22561,
+    "sha256": "8f30203315d20ce9ef0903702a35507e592fc096568395f99b8143d87fddc83f"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/workbench-native.web.tsx",
+    "bytes": 2493,
+    "sha256": "ac1b654247a60f4e2e1614b9cbaf832ec7b2e2d6b73aaa232cd9614b46abecd3"
+  },
+  {
+    "path": "outputs/xunxu-ios/components/workbench-tabs.tsx",
+    "bytes": 1087,
+    "sha256": "6f96b47739fd0f0fabfe80fb2a6b40cdf62777773eb43df240ec0b8f84d175a2"
+  },
+  {
+    "path": "outputs/xunxu-ios/eas.json",
+    "bytes": 231,
+    "sha256": "78c196bc87ed011659da0978e2161c03ad3577c4c8bd13105ddc281ce3bf70a8"
+  },
+  {
+    "path": "outputs/xunxu-ios/ENTRY_REFINEMENT.md",
+    "bytes": 1928,
+    "sha256": "cfaed17657de7500ad23ea8144c14072c5cf537069614b0c7116e7a5e93b34a4"
+  },
+  {
+    "path": "outputs/xunxu-ios/FRIDGE.md",
+    "bytes": 12724,
+    "sha256": "9447db7117fb6251fd9c73f62e1463065ccbc56884a73bd659d8bfc527b29ab1"
+  },
+  {
+    "path": "outputs/xunxu-ios/HEALTHKIT.md",
+    "bytes": 6017,
+    "sha256": "e6ca8465ed8375cc2daf333f7b53c00cf4f705ffd965d2a23f9c91a589155e73"
+  },
+  {
+    "path": "outputs/xunxu-ios/INTERACTION_REFINEMENT.md",
+    "bytes": 1710,
+    "sha256": "d183e189f4c5bcc239fa7b2dd344da3c23f4b0dc5f4fe25ea2d4ca4ac173d1a5"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/cloud-state.ts",
+    "bytes": 1785,
+    "sha256": "e00a837e77640ce7b31eb8a88f0f6446ab403ff080fbfa303f078fcf5fc819ec"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/fridge/core.d.ts",
+    "bytes": 824,
+    "sha256": "f4449c3b97ffa6d0b5c4f40f02eac633870cf46c543a9fd742d020b0209f303a"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/fridge/core.js",
+    "bytes": 8203,
+    "sha256": "87ac54fdb4ee7bc54cfa652f8b437ee5308b80b2b67b3071361c7a5710d0b28d"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/fridge/models.ts",
+    "bytes": 1598,
+    "sha256": "cf29238d5dfdea0d2656c1ef0412d79bfa88be37f480f3fb6ee028a4353df36a"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/fridge/SupplementReminders.ts",
+    "bytes": 3812,
+    "sha256": "cf0b27e19067e6ddc0e677ce616494e6b922658ae0ee5039fd9ba35e83b9437e"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/fridge/supplements.ts",
+    "bytes": 1768,
+    "sha256": "90f5958514793be1b27d72101d0bb96692112ba897f01005e097a67c809a4b98"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/fridge/useVoiceInput.ts",
+    "bytes": 3929,
+    "sha256": "c9e7c0994ac6e77823df23bdfe0c215607718b44d2112a30257876959c8383b8"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/fridge/VisionScannerService.ts",
+    "bytes": 5332,
+    "sha256": "e828fe03db894c9bf727d11440e494c89945a3d2c087ae917244ac5129812405"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/health/calculations.d.ts",
+    "bytes": 574,
+    "sha256": "1a363f6dd6ed1334e7b2898dcde1dec12e855258b2232b301a2cbb78419d7c07"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/health/calculations.js",
+    "bytes": 2829,
+    "sha256": "dfd0a3b09debcdec81187dcdebdcf04ef815869ad63c969d02c9abbf3ab09165"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/health/HealthKitService.ts",
+    "bytes": 4692,
+    "sha256": "73cc59617b0940ad03971960f8ce11143c552353593195f2ef39905341d4ad74"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/health/model.ts",
+    "bytes": 935,
+    "sha256": "135e08a08d7e319ccc281e592fea83846da31e4b3b9c3964deb42e0da1f2a5c0"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/health/records.d.ts",
+    "bytes": 131,
+    "sha256": "2fbce368b35a903fc6901f292bdf78f9806c788750f7a9a37ba8ffcaa0e154ca"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/health/records.js",
+    "bytes": 879,
+    "sha256": "ad5fe42f14baccfe9c2946dd33ec522c0a3b22defce6f6ab3cdc4b91ac72e566"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/health/useHealthDashboard.ts",
+    "bytes": 5020,
+    "sha256": "27f781af772efb6a84ca2cd7cab8b6a0495fa08694385f2bad97e0acfa3d3bda"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/initial-state.ts",
+    "bytes": 403,
+    "sha256": "a78db684d6210cd3cfed3d9d1ed04d21c3be092b8b81f54131972262cb33ec00"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/nutrition-plan.d.ts",
+    "bytes": 882,
+    "sha256": "9d2ce64fbd7d63c6f81980a00c8499c32159ae890a73d9623af66118334fb38e"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/nutrition-plan.js",
+    "bytes": 3668,
+    "sha256": "f37c6fb2f214d4e369a76395b9e862bfb05eb36a8934dda98c6e3f545e168b50"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/supabase.ts",
+    "bytes": 461,
+    "sha256": "ee1a613c37162ca8176bf0e7ccde8092cdac5daa1ee321c1f123ce086ab3ba1d"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/validation.d.ts",
+    "bytes": 146,
+    "sha256": "72ce57855f33a674c01a41779ca4f451eb1550b4193d6504c56276675906cfe8"
+  },
+  {
+    "path": "outputs/xunxu-ios/lib/validation.js",
+    "bytes": 3470,
+    "sha256": "2123f874dd5002292f9c82bb4ebcb59172b39f2fc72c5e97813e7f6da86983f6"
+  },
+  {
+    "path": "outputs/xunxu-ios/LICENSE",
+    "bytes": 1106,
+    "sha256": "fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4"
+  },
+  {
+    "path": "outputs/xunxu-ios/metro.config.js",
+    "bytes": 386,
+    "sha256": "8ab497d766fa327ac8f6bcd1fa09503fa3bf04a4b02407c41f6fb97045f574ac"
+  },
+  {
+    "path": "outputs/xunxu-ios/ONBOARDING.md",
+    "bytes": 2489,
+    "sha256": "9585c53eb8a551c80fddaeddff0c5f7b72711a35e3a50770b21ffce2f0d5f215"
+  },
+  {
+    "path": "outputs/xunxu-ios/package-lock.json",
+    "bytes": 330303,
+    "sha256": "115b42a8412003b2698b5203a4ded096345fff733b0dc46c2c6da8f208e60738"
+  },
+  {
+    "path": "outputs/xunxu-ios/package.json",
+    "bytes": 2141,
+    "sha256": "6bc145629b0dae76d526ab19e77ce7c2fa4144d77795058eb4c7f04830d33ac7"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/analysis.html",
+    "bytes": 917724,
+    "sha256": "22d0f8fca6255fb99cdd78ea0ccc67a12c8af8a624456bf516e403b9aabb7066"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/analytics.js",
+    "bytes": 3342,
+    "sha256": "86cf40101f5451c01b463ee9777a58d98aabd4b1b18ad8d54fe881c4c2a1c320"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/app.js",
+    "bytes": 59864,
+    "sha256": "0081f5b776fe21c4904294691f3d4b86692406f4a168f45b98ffdb6c126ebf16"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/apple-touch-icon.png",
+    "bytes": 6357,
+    "sha256": "c8ce7b7563d003ed7a074059b3f36b923317001f5020caff20a5556225a276fb"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/bento.css",
+    "bytes": 18191,
+    "sha256": "92b701cb0e7d6b3eac4b35f8e56bf8a34626a373edfadaaa262d74caae1b5526"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/bench.mp4",
+    "bytes": 1487653,
+    "sha256": "6388d64ac3ae06a45f3114c2922d0ffdb66d8ee0b6bacc53ce7872a14f7e03e5"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/bulgarian.mp4",
+    "bytes": 1060276,
+    "sha256": "c1216ae1fae55de6730ba7f8668baacb7d3118d0473a378b7f26a6544ad6d39f"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/curl.mp4",
+    "bytes": 1237902,
+    "sha256": "821448e272b400a5e541d6be90c21be0eb1e8bd2b34c4b24538c5ab87439b35c"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/dips.mp4",
+    "bytes": 1087342,
+    "sha256": "b62b6aa58d49a8a57ccb37e9e49168e6f3c4a5ab243fda0976fc47a9eba8d1f4"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/extension.mp4",
+    "bytes": 998769,
+    "sha256": "6a399c2db855f81aadf7892be21d050d981cd7c3777347c710d732e074bc40e4"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/goblet.mp4",
+    "bytes": 963297,
+    "sha256": "ef05d8dae93cb0c2af8452249a56df83c4095ba9aab214a8f3aa5145b28a360f"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/incline.mp4",
+    "bytes": 1089877,
+    "sha256": "a3addef4ee48825a938a5dedadcfbe3f0d7b62e23bb0723ba93e557ca4a008d2"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/neutral.mp4",
+    "bytes": 1526244,
+    "sha256": "d71142e83a25044efdf91a4d0b61b7821df39d464293743381e4d7ebd1fb30c8"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/onepull.mp4",
+    "bytes": 1466815,
+    "sha256": "e199b7c098aa6ae9b8172322845b7d26f0cce3c9e3fbd7bb812fff27337e0d5d"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/rdl.mp4",
+    "bytes": 902948,
+    "sha256": "b257178c7478443bb779eec30639e039505ce11f804d5461445d81f87e68ba65"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/row.mp4",
+    "bytes": 1407004,
+    "sha256": "294c05033819337bf2a2ec2274bfba6cb501bddfbbd7e53a95354ee2daffa93c"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/singleRdl.mp4",
+    "bytes": 1163790,
+    "sha256": "ae1b2283c829d3d255c6da9982b699c705e1501911a72440b62c782fe3d02858"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/sources.json",
+    "bytes": 1245,
+    "sha256": "bb5b255b29c4a57b01e19309fb78013339e0378f63e4b136eb0d567e27b25c3b"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/triceps.mp4",
+    "bytes": 1111101,
+    "sha256": "cb6d6f9b322b4edf3b6fe391acdb66a204caaefe63af903e5dc6c5a4191d008f"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/wide.mp4",
+    "bytes": 950680,
+    "sha256": "b590df455dab8a0cd7a22dda61519df991739659cb48ab577a4baa4063946c30"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/clips/yraise.mp4",
+    "bytes": 1139696,
+    "sha256": "1f91ac5366b96b324d30f4cf0e2552826c19c229f2b653009ca3f84d30193d7b"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/engine.js",
+    "bytes": 9849,
+    "sha256": "ce9c5b46bf42d8c1af14c29ac94eaf5a4f6552bbed5b7a8ae803ae72af8ffc6d"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/bench.gif",
+    "bytes": 338316,
+    "sha256": "f8abf94bee0c50393f914b039fe30050f367d47cc03befdf2d036347d1bea698"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/bulgarian.gif",
+    "bytes": 305961,
+    "sha256": "f6fb56b663ccb97df557e9edee16b994b0dbd6231c7799317eb38ceaa100c986"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/curl.gif",
+    "bytes": 238494,
+    "sha256": "4847cf8510ea2c8a822b7aaca914a932e1651199e930466701395002a1584288"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/dips.gif",
+    "bytes": 249611,
+    "sha256": "ec81f85d5e44e5f3f49adda3ea85ab26cbe0c6f8cb4d9418940c6ef6f18ccbc6"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/extension.gif",
+    "bytes": 238695,
+    "sha256": "c0b09536ab6392936486ba03195ca2459bcf8eb56edad95564f63d3f66808f7a"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/goblet.gif",
+    "bytes": 239721,
+    "sha256": "00c16cf6085a62f3923449cf78e6c054c1a6cd6f5895864046d6fd8d6bc075f5"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/incline.gif",
+    "bytes": 227939,
+    "sha256": "c4ce59a2a8024750599c5e62d3e71679adf52056e76fb52f3f54ec48827154f6"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/neutral.gif",
+    "bytes": 345454,
+    "sha256": "29f7b7321cbd475c38173f14a4f10ba66d551c34df1a0e93a7ae585c903f12a0"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/rdl.gif",
+    "bytes": 290616,
+    "sha256": "1aef6a865e4ab32e5006383149ca696691c94bcc651cf1a0e5dd3a5d06aade13"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/singleRdl.gif",
+    "bytes": 293864,
+    "sha256": "9c38b502463fa98c518afe0f80e030289039e3b32106bcc31d1948fe878ea546"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/triceps.gif",
+    "bytes": 271358,
+    "sha256": "e2a29d7c9c4c09123bd47ebdf7cb257fdaa630e6c777165ff8bc487315a90dec"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/exercise-gifs/wide.gif",
+    "bytes": 334151,
+    "sha256": "23505ed3c6643e7973c9776735eede1179a829be1dbb2dcf0e1d0b7567c80b96"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/fonts/pingfang-sc-regular.woff2",
+    "bytes": 555760,
+    "sha256": "97dfd31935f1ee9db6872af09a9041f58ae33d1f6b68ab09a41fe716cd3b7d17"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/fonts/pingfang-sc-semibold.woff2",
+    "bytes": 525012,
+    "sha256": "ba3eb77329b431415c1377eec7dc00c5052f8ca91e2226dd6f09020427e22d23"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/guide-data.js",
+    "bytes": 6729,
+    "sha256": "996787e98047f2fa22159c155a43e1a9453e37a7e149afa7702bff88dcb911c1"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/home.css",
+    "bytes": 4299,
+    "sha256": "ec90bc4a76f9b9c5fab45b73aac699a43f5eca99db20c0253e9ee1f33808cef9"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/home.js",
+    "bytes": 7659,
+    "sha256": "93b9eb50f9c27ec7b6589edeede4eae5e8e434405fae5b2eb601ff37e0da8033"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/human-viewer.js",
+    "bytes": 13360,
+    "sha256": "ae2e0b9d338eec28ad68285d54d73d791db6f22e792ddf6dc5dee455f57c3003"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/icon-512.png",
+    "bytes": 18573,
+    "sha256": "76856ec0512bd4b90dd338f01797db5b479cee98447506b4e98bd3a3a0bfdd3d"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/icon.svg",
+    "bytes": 505,
+    "sha256": "2974e560a16359df2d782a338a1a2edd1081d042d9e0bac12597cba5482169fc"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/index.html",
+    "bytes": 1127,
+    "sha256": "c7df56617ae617d5f6e118eab1344745926ffbc291b6528534c53ba5127b816d"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/ios.css",
+    "bytes": 890,
+    "sha256": "fd01c8823da1afda78bc16357762e9bd0ad29b9bd524febf7d9a47f113970bd4"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/manifest.webmanifest",
+    "bytes": 359,
+    "sha256": "79387aa152d8b12c5c8d96860757065aaaa9150eb90a687b5dd6d52aaca284a6"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/models/LICENSE.md",
+    "bytes": 830,
+    "sha256": "3e76a122c36ddc2ae97034d7fb937354e0830b1466184186118ac78407b39ada"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/models/training-human.glb",
+    "bytes": 1094980,
+    "sha256": "3b7a91afe43fd36b77578e4434e55a6c18b9fa8088384fac87ac183d32541d21"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/native-bridge.js",
+    "bytes": 2962,
+    "sha256": "0f9cbe7de9732842b15b741197cc022e341704acb1e661139a4cadb98cc7cbf1"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/nutrition-plan.js",
+    "bytes": 3668,
+    "sha256": "f37c6fb2f214d4e369a76395b9e862bfb05eb36a8934dda98c6e3f545e168b50"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/portable-store.js",
+    "bytes": 2183,
+    "sha256": "efe24487706530866edf718be1f5b43cfffde6f7705e403103fcedb85e01a64f"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/style.css",
+    "bytes": 19780,
+    "sha256": "b76082ffc65b18cf4b7a94c269aae6b80017b25515523f09fac74d3938f718d5"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/bench.jpg",
+    "bytes": 27805,
+    "sha256": "2f1d12e711e85bef2f7e1a7faf03eb4824241d6aa36e452d9ef35c8b550049b1"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/bulgarian.jpg",
+    "bytes": 24878,
+    "sha256": "dd12e56983f770c6c27615e3eb655515fb4b8404c936dd2389a9d55d8b064cbb"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/curl.jpg",
+    "bytes": 23943,
+    "sha256": "b9767cb7e5eba02163f7e3e93137bd607345a3738acef85acb12e779ea188183"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/dips.jpg",
+    "bytes": 19512,
+    "sha256": "e0dc4edd236511b3313df2f687a8d4762ea3dca9c3d706e07b221ee3e88f6c69"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/extension.jpg",
+    "bytes": 20071,
+    "sha256": "1fbb495bc1dd910fdec0a59b9d1e1b3012b12153daee3d73ee0678a30887f1d1"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/goblet.jpg",
+    "bytes": 21105,
+    "sha256": "14769160aa9daa96d7eb63aebe67589f323843ce0ceeed229ae1d018c11c275c"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/incline.jpg",
+    "bytes": 25315,
+    "sha256": "a39af6bf1f5ae04080ca323b4e8462b29bbbefc37289acbc54e927c30d4a6066"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/neutral.jpg",
+    "bytes": 25222,
+    "sha256": "52142503a4b839ec50b75b9ec391896be01cb97c11f1369c99bcc77488dcd107"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/onepull.jpg",
+    "bytes": 22254,
+    "sha256": "ef02dd993d6152301fe97d523390a51d13d2e7428d8c6bd117d4c4950b729d2a"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/rdl.jpg",
+    "bytes": 24403,
+    "sha256": "97e4a6919a993df76e0333585cfcabef304457a2ed41dd247cdeaa1f6efec279"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/row.jpg",
+    "bytes": 19791,
+    "sha256": "e735b6193219245d09930b856120d98ba0881dfb7c11181a6f1b79013bb8b42c"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/singleRdl.jpg",
+    "bytes": 22802,
+    "sha256": "ef8f70e9cb8a47578aba14a02ca9a7a03afbd921bbdb79c29873393079fb1477"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/triceps.jpg",
+    "bytes": 23309,
+    "sha256": "6526792e736784c4c8c3c595f53ee144b4cd1920f897f2f58c25501cd36dd94e"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/wide.jpg",
+    "bytes": 19443,
+    "sha256": "c2ed71527e9ed9875b38a5068574ac10984bed6b2a3513471245658bfcef2f73"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/thumbs/yraise.jpg",
+    "bytes": 22953,
+    "sha256": "9e6522d3db7aebc499943127dde8f604480d4b4e122d491d8d41064fe862b3ce"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/validation.js",
+    "bytes": 3470,
+    "sha256": "2123f874dd5002292f9c82bb4ebcb59172b39f2fc72c5e97813e7f6da86983f6"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/vendor/three/BufferGeometryUtils.js",
+    "bytes": 37621,
+    "sha256": "5c552223a9309883743b80538d6e9cdb45e3227f30d3ec56fb2c39b46e78d595"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/vendor/three/GLTFLoader.js",
+    "bytes": 114945,
+    "sha256": "ad534a8e1545d8a4a55e4c400e22e69411a68dbcac1a8013026e56ee8ef4475d"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/vendor/three/LICENSE",
+    "bytes": 1081,
+    "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/vendor/three/OrbitControls.js",
+    "bytes": 40504,
+    "sha256": "faabb4e8dfd9235ee4a9fd7c9a3d75f90f1689dbd4944bd6fd32117dacec5f93"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/vendor/three/SkeletonUtils.js",
+    "bytes": 11535,
+    "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/vendor/three/three.core.js",
+    "bytes": 1443056,
+    "sha256": "3718df126d69c125362a03340913204470d8c50238605150e57f808840fb7759"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/vendor/three/three.module.js",
+    "bytes": 650153,
+    "sha256": "bbf5ed13fe4373f5bd38b14ea8e62e9f157327da5638edc6d3863e08b167c9c7"
+  },
+  {
+    "path": "outputs/xunxu-ios/public/workbench/vendor/zxing.js",
+    "bytes": 395062,
+    "sha256": "b5ad3df920738ca7adcb74508d7e6b6a5b9024993fb9a0c702da1ad8964eca07"
+  },
+  {
+    "path": "outputs/xunxu-ios/README.md",
+    "bytes": 923,
+    "sha256": "e886167e0243093f2ad6a6fa6a7b75eb14b204bb1718062580a84b726dd61624"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/build_and_run.cmd",
+    "bytes": 280,
+    "sha256": "0b7c40c5d6724c16138e809327b3b70bb9c93a64f847db219fc5fd126688d4da"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/build_and_run.sh",
+    "bytes": 322,
+    "sha256": "abcf54ba33459d57d9de224867bff2a2a600a600386a99b9478c227abe00f2d0"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/configure-ai-routing.ps1",
+    "bytes": 1575,
+    "sha256": "de6026618a4c15270465e47c82d782608f17d8f60f151a9ecd7a5bdd71182a4e"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/preview-phone.cmd",
+    "bytes": 204,
+    "sha256": "bba3589f823e44219d28dc8a19df64000322b92e2bfa416cb5a68f5716d7495f"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/sync-workbench.mjs",
+    "bytes": 8860,
+    "sha256": "267075fe78356d3d6e82b7407368a1d3177798d240082d3d0119e93584192fe0"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/test-ai-jobs.cjs",
+    "bytes": 1540,
+    "sha256": "f5c0b71a401176e194fc4bbadcd5a030c6e617a2a057be9d58874d7d4cd90326"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/test-ai-router-config.cjs",
+    "bytes": 2064,
+    "sha256": "1e649d3a5e65176f38fb95e35e71cdc04dd95a5e636fa4b81789781aec3f0500"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/test-ai-router.cjs",
+    "bytes": 8744,
+    "sha256": "12e5de1e44f5f431d9b06fb53d4b2e7abe7e3cce759b66f0477c6035f9ddee1f"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/test-cloud-isolation.mjs",
+    "bytes": 2332,
+    "sha256": "04e94f22eb3cf0b4dcfc21b2bf0f1156dbcd3ef0fe338a95a7407cbb2c416602"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/test-fridge.mjs",
+    "bytes": 2977,
+    "sha256": "6562f48d29dddf71d3fadd23bfc09ca0aef213e2bee09786fc32646b60cd9492"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/test-health-calculations.mjs",
+    "bytes": 4233,
+    "sha256": "1d4566f2dfb39df8f5a56783c99999077b151aa277f9a451b794c335d76dfb9d"
+  },
+  {
+    "path": "outputs/xunxu-ios/script/test-nutrition-plan.mjs",
+    "bytes": 2478,
+    "sha256": "44d834580f546791770d5935f81c14371e30e42a989a2c4d22178fe7bf659ed0"
+  },
+  {
+    "path": "outputs/xunxu-ios/server/ai-jobs.cjs",
+    "bytes": 1753,
+    "sha256": "f036ec2ac52504c23c047bdd2ce00e9cf7f7b92ff8f7051b78d3d69c81a70c0f"
+  },
+  {
+    "path": "outputs/xunxu-ios/server/ai-router-config.cjs",
+    "bytes": 1614,
+    "sha256": "383b472f8b4487be7d872906265a43c610a18918ba506ca7770aedd2e97b16dd"
+  },
+  {
+    "path": "outputs/xunxu-ios/server/ai-router-secrets.cjs",
+    "bytes": 1164,
+    "sha256": "76ed0b07e9e49195b2e87508568ea29b39d99ac89462464b9c6e03ad5b87bd00"
+  },
+  {
+    "path": "outputs/xunxu-ios/server/ai-router.cjs",
+    "bytes": 2107,
+    "sha256": "820e2f4d44488d2db36dd8f6ce4e3e5fd7e6b8a2e990c2830d2f6a2f93c1ed82"
+  },
+  {
+    "path": "outputs/xunxu-ios/server/native-api.cjs",
+    "bytes": 4545,
+    "sha256": "83c1fedd26e7c41e6485ca4460175bbce76340244eb95e97a2cfba2c9ccaacfe"
+  },
+  {
+    "path": "outputs/xunxu-ios/services/aiRouter.env.example",
+    "bytes": 677,
+    "sha256": "013d859c812eb41489cbebfb5e348686377cd0309e4cf29f7063152108387880"
+  },
+  {
+    "path": "outputs/xunxu-ios/services/aiRouter.README.md",
+    "bytes": 4062,
+    "sha256": "2325c4ca409297f450caa25911f257ecc732a270f20e7878e7f548e64829825b"
+  },
+  {
+    "path": "outputs/xunxu-ios/services/aiRouter.ts",
+    "bytes": 24158,
+    "sha256": "2fdc06a12f237d324007a9dacc72f5886ecb50a3c3b4bc72db9e3157980aa38d"
+  },
+  {
+    "path": "outputs/xunxu-ios/services/MODEL_CONFIGURATION.md",
+    "bytes": 5522,
+    "sha256": "dfb82959bd92fbb2262cf5ed96f4ce479a519120f72fffd8981e4984d41678e0"
+  },
+  {
+    "path": "outputs/xunxu-ios/supabase/functions/xunxu-ai/index.ts",
+    "bytes": 8363,
+    "sha256": "8b8b92cb2085f4fd51a5f7ad72b522c8e0877f0f187f8cd09b4586c511f5a046"
+  },
+  {
+    "path": "outputs/xunxu-ios/supabase/functions/xunxu-ai/README.md",
+    "bytes": 297,
+    "sha256": "a59e3f9d7d5ef62eeb70d811cd3dc6cfd48ae986ca191139d7b6104ed295674a"
+  },
+  {
+    "path": "outputs/xunxu-ios/supabase/migrations/202609130001_workspaces.sql",
+    "bytes": 1849,
+    "sha256": "e1ffd92943c59f6895cbb52f97d143126ea2d1cd980728c164986015ae776e3a"
+  },
+  {
+    "path": "outputs/xunxu-ios/SUPABASE_SETUP.md",
+    "bytes": 4090,
+    "sha256": "ae151dc6ed7a2161bdc60a15981fb771bcbd5fd6230240a36d19d0f164826bfa"
+  },
+  {
+    "path": "outputs/xunxu-ios/TESTING.md",
+    "bytes": 2738,
+    "sha256": "742dafee72c883b9c3ade7102c593d293e43c2b136a2daea24e096f507e564a2"
+  },
+  {
+    "path": "outputs/xunxu-ios/tsconfig.json",
+    "bytes": 122,
+    "sha256": "be2c2752fd95be59ae0d4fbf86dad323f6e6aefaaadc6d70de9c486ec8bbddc9"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-catalog.json",
+    "bytes": 1197283,
+    "sha256": "91e764939cd665c08f3bda8c4a7b4df2197ff118836a154b033ac66e0e27a889"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/bench.gif",
+    "bytes": 338316,
+    "sha256": "f8abf94bee0c50393f914b039fe30050f367d47cc03befdf2d036347d1bea698"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/bulgarian.gif",
+    "bytes": 305961,
+    "sha256": "f6fb56b663ccb97df557e9edee16b994b0dbd6231c7799317eb38ceaa100c986"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/curl.gif",
+    "bytes": 238494,
+    "sha256": "4847cf8510ea2c8a822b7aaca914a932e1651199e930466701395002a1584288"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/dips.gif",
+    "bytes": 249611,
+    "sha256": "ec81f85d5e44e5f3f49adda3ea85ab26cbe0c6f8cb4d9418940c6ef6f18ccbc6"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/extension.gif",
+    "bytes": 238695,
+    "sha256": "c0b09536ab6392936486ba03195ca2459bcf8eb56edad95564f63d3f66808f7a"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/goblet.gif",
+    "bytes": 239721,
+    "sha256": "00c16cf6085a62f3923449cf78e6c054c1a6cd6f5895864046d6fd8d6bc075f5"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/incline.gif",
+    "bytes": 227939,
+    "sha256": "c4ce59a2a8024750599c5e62d3e71679adf52056e76fb52f3f54ec48827154f6"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/neutral.gif",
+    "bytes": 345454,
+    "sha256": "29f7b7321cbd475c38173f14a4f10ba66d551c34df1a0e93a7ae585c903f12a0"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/onepull.gif",
+    "bytes": 290516,
+    "sha256": "137a2f78c36b1e8a321d00ed1a77bfa34b196b2a4c7540c90a657d48c8432d3c"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/rdl.gif",
+    "bytes": 290616,
+    "sha256": "1aef6a865e4ab32e5006383149ca696691c94bcc651cf1a0e5dd3a5d06aade13"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/singleRdl.gif",
+    "bytes": 293864,
+    "sha256": "9c38b502463fa98c518afe0f80e030289039e3b32106bcc31d1948fe878ea546"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/triceps.gif",
+    "bytes": 271358,
+    "sha256": "e2a29d7c9c4c09123bd47ebdf7cb257fdaa630e6c777165ff8bc487315a90dec"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-gifs/wide.gif",
+    "bytes": 334151,
+    "sha256": "23505ed3c6643e7973c9776735eede1179a829be1dbb2dcf0e1d0b7567c80b96"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/exercise-matches.json",
+    "bytes": 628,
+    "sha256": "a56d392de5057765ae3e19d8e1262536c524c60570a79b823491c7196ef65095"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/gif-review.jpg",
+    "bytes": 69000,
+    "sha256": "eece2d928492fb7cee8ebae126a86f9305c5a0256247d7496f2e932e19632b29"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/home.css",
+    "bytes": 4299,
+    "sha256": "ec90bc4a76f9b9c5fab45b73aac699a43f5eca99db20c0253e9ee1f33808cef9"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/home.js",
+    "bytes": 7659,
+    "sha256": "93b9eb50f9c27ec7b6589edeede4eae5e8e434405fae5b2eb601ff37e0da8033"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/ios.css",
+    "bytes": 890,
+    "sha256": "fd01c8823da1afda78bc16357762e9bd0ad29b9bd524febf7d9a47f113970bd4"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/native-bridge.js",
+    "bytes": 2962,
+    "sha256": "0f9cbe7de9732842b15b741197cc022e341704acb1e661139a4cadb98cc7cbf1"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/today-restored/app.js",
+    "bytes": 59864,
+    "sha256": "0081f5b776fe21c4904294691f3d4b86692406f4a168f45b98ffdb6c126ebf16"
+  },
+  {
+    "path": "outputs/xunxu-ios/workbench-overrides/today-restored/portable-store.js",
+    "bytes": 2183,
+    "sha256": "efe24487706530866edf718be1f5b43cfffde6f7705e403103fcedb85e01a64f"
+  },
+  {
+    "path": "PACKAGING_REPORT.json",
+    "bytes": 752,
+    "sha256": "fb23b8085df4dafbf9dee499aa410bc3b341c7497e8f38f62e8f0ae851570fd5"
+  },
+  {
+    "path": "START_HERE.md",
+    "bytes": 6048,
+    "sha256": "f880033e744f1be78251112449fb4d35baace5069f00c6d719e93d1cb068e7e5"
+  }
+]

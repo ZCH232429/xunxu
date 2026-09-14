@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "循序",
+    "slug": "xunxu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "xunxu",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "com.xunxu.fitness",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "package": "com.xunxu.fitness",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "@kingstinct/react-native-healthkit",
+        {
+          "NSHealthShareUsageDescription": "循序读取步数、活动能量、心率、静息心率及睡眠，展示运动大盘并估算能量收支。Apple Watch 数据通过 iPhone 健康读取。",
+          "NSHealthUpdateUsageDescription": "循序当前仅使用健康数据读取功能，不会向 Apple 健康写入数据。",
+          "background": false
+        }
+      ],
+      "expo-dev-client",
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "循序需要选择商品与营养标签照片，用于识别冰箱食材。",
+          "cameraPermission": "循序需要相机来拍摄营养标签和扫描商品条形码。",
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "循序需要相机来拍摄营养标签和扫描商品条形码。",
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-sharing",
+      "expo-apple-authentication",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "循序使用麦克风，将您说出的食材和补剂转成文字。",
+          "speechRecognitionPermission": "循序使用系统语音识别填写食材和补剂，识别结果由您确认后提交。"
+        }
+      ],
+      "expo-web-browser",
+      "expo-notifications"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

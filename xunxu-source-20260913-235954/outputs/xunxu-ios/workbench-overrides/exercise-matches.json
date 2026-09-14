@@ -1,0 +1,15 @@
+{
+  "bench": "pectorals/barbell-bench-press",
+  "incline": "pectorals/dumbbell-incline-bench-press",
+  "dips": "pectorals/chest-dip",
+  "triceps": "triceps/dumbbell-lying-triceps-extension",
+  "onepull": "lats/cable-one-arm-pulldown",
+  "neutral": "lats/twin-handle-parallel-grip-lat-pulldown",
+  "curl": "biceps/cable-curl",
+  "singleRdl": "glutes/dumbbell-single-leg-deadlift",
+  "bulgarian": "quads/dumbbell-single-leg-split-squat",
+  "goblet": "quads/dumbbell-goblet-squat",
+  "rdl": "glutes/barbell-romanian-deadlift",
+  "extension": "spine/hyperextension",
+  "wide": "upper-back/cable-seated-wide-grip-row"
+}

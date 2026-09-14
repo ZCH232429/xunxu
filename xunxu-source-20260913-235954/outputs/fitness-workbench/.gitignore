@@ -1,0 +1,17 @@
+node_modules/
+data/
+.env
+health-days.json
+*.xml
+
+video-sources.json
+
+dist/
+site-dist/
+release/
+release-coupang/
+release-link-import/
+release-no-link/
+release-scraper/
+release-scraper-final/
+release-fridge-3.2.1/

@@ -1,0 +1,34 @@
+main[data-view=overview] header{margin-bottom:20px!important}
+.home-dashboard{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+.home-dashboard section,.home-dashboard article{min-width:0;box-shadow:none!important;border:0!important;border-radius:32px}
+.home-dashboard h2{color:inherit!important;font-size:24px!important;margin:12px 0!important;line-height:1.3}
+.home-dashboard p{color:inherit!important;font-size:14px;line-height:1.65;margin:12px 0}
+.home-dashboard .home-kicker{font-size:12px;letter-spacing:1.2px;color:inherit}
+.home-energy{background:#d7ff7a;padding:24px;color:#111}
+.home-ring{width:100%;max-width:280px;aspect-ratio:1;position:relative;margin:12px auto}
+.home-ring svg{position:absolute;inset:0;width:100%;height:100%}
+.home-ring>div{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px}
+.home-ring strong{font-size:clamp(46px,12vw,64px);font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums}
+.home-ring small{font-size:12px}
+.home-ring-fill{stroke-dashoffset:var(--ring-offset);animation:home-ring 1.5s cubic-bezier(.2,.9,.25,1.05) both}
+@keyframes home-ring{from{stroke-dashoffset:var(--ring-length)}to{stroke-dashoffset:var(--ring-offset)}}
+.home-energy-facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.home-energy-facts span{display:block;font-size:12px}.home-energy-facts b{font-size:24px}.home-energy-facts small{font-size:12px;font-weight:400}
+.home-macros{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.home-macros span,.home-macros b{display:block;font-size:12px}.home-macros b{margin:6px 0;font-size:16px}.home-macros small{font-size:11px;font-weight:400}
+.home-macros progress{appearance:none;width:100%;height:5px;border:0;border-radius:999px;overflow:hidden;background:#b0d367}
+.home-macros progress::-webkit-progress-bar{background:#b0d367}.home-macros progress::-webkit-progress-value{background:#111}.home-macros progress::-moz-progress-bar{background:#111}
+.home-dashboard .home-note{font-size:12px}
+.home-dashboard .home-pill{display:block;width:100%;border:0!important;border-radius:999px!important;background:#111!important;color:#fff!important;padding:16px!important;min-height:48px;font-size:14px!important;text-align:center;margin-top:10px;box-shadow:none!important}
+.home-dashboard .home-secondary{background:rgba(0,0,0,.09)!important;color:inherit!important}
+.home-movement{display:flex;flex-direction:column;gap:12px}
+.home-metric-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.home-tile{padding:20px;color:#111;display:flex;flex-direction:column;gap:8px}
+.home-tile>span,.home-tile small{font-size:12px}.home-tile strong{font-size:38px;font-weight:800;line-height:1.25;font-variant-numeric:tabular-nums}.home-tile p{font-size:12px;margin:0}
+.home-orange,.home-training{background:#ff8a47;color:#111}.home-mint{background:#baf3dd}.home-pink,.home-sleep{background:#f6c9dd;color:#111}.home-blue{background:#3155e7;color:#fff}
+.home-sleep{padding:24px}.home-sleep>div{display:flex;gap:10px;align-items:baseline;margin-top:12px}.home-sleep strong{font-size:46px;font-weight:800}
+.home-health-status{padding:8px 12px;color:#fff}.home-health-status p{font-size:12px}.home-health-status .home-pill{background:#baf3dd!important;color:#111!important}.home-health-status .home-secondary{background:#242424!important;color:#fff!important}
+.home-training,.home-meal{padding:24px}.home-session{font-size:30px;display:block;line-height:1.35}.home-meal{background:#baf3dd;color:#111}
+.home-week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;margin-top:20px}.home-week button{padding:10px 2px!important;min-width:0;background:#ef7330!important;color:#111!important;border:0!important;border-radius:999px!important}.home-week .selected{background:#111!important;color:#fff!important}.home-week small{display:block;font-size:9px}.home-week b{font-size:11px;display:block;margin-top:5px;overflow:hidden}
+@media(max-width:760px){.home-dashboard{grid-template-columns:minmax(0,1fr)}.home-energy,.home-training,.home-meal{padding:24px}.home-tile{padding:18px}.home-dashboard h2{font-size:23px!important}}
+@media(prefers-reduced-motion:reduce){.home-ring-fill{animation:none}}
